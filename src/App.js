@@ -1,14 +1,11 @@
-import React, {useState} from "react"
+import React from "react"
+import "./App.css"
 
 export default function App(){
-
-  const carros = ['HRV', 'Golf', 'Focus', 'Cruze', 'Argo']
-  const listaCarros = carros.map((c)=><p>{c}</p>)
   
-
   return (
-      <>
-          {listaCarros}
-      </>
+    <>
+      
+    </>
   )
 }
